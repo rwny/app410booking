@@ -44,10 +44,10 @@
 }
 
 .availability.booked span {
-  color: #ff9800;  /* Changed from red (#f44336) to orange */
+  color: #ccc056;  /* Changed from #ff9800 (orange) to dark gray */
 }
 
 .time-value {
-  color: #ffeb3b;
+  color: #ccc056;
   font-weight: bold;
 }

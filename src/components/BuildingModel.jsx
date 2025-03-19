@@ -26,7 +26,7 @@ const generateRoomData = () => {
     
     return {
       id: roomIds[index].toString(),
-      name: `${roomType} ${roomIds[index]}`,
+      name: `${roomIds[index]} ${roomType}`,
       capacity: capacity,
       amenities: amenitiesList[index % amenitiesList.length],
       available: true // Default to available, will be updated based on bookings
@@ -78,32 +78,32 @@ export default function BuildingModel({ onRoomClick, selectedDate, selectedHour,
 
   return (
     <group ref={groupRef}>
-      {/* Building base */}
-      <mesh position={[0, -0.5, 0]} receiveShadow>
-        <boxGeometry args={[20, 1, 20]} />
-        <meshStandardMaterial color="#8c8c8c" />
+
+      <mesh receiveShadow position={[0, 0, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+        <planeGeometry args={[20, 11]} />  
+        <meshStandardMaterial color="#a0a0a0" transparent opacity={0.5} />
       </mesh>
-      
+
       {/* Rooms arranged in a 2x3 grid */}
       {/* First row */}
       <Room 
         position={[-7, 1, -3]} 
         size={[5, 2, 4]} 
-        color={roomsData[0].available ? "#4caf50" : "#ff9800"} // Green if available, orange if booked
+        color={roomsData[0].available ? "#4caf50" : "#4a4a4a"} // Green if available, dark gray if booked
         onClick={() => handleClick('101')} 
         label={roomsData[0].name}
       />
       <Room 
         position={[0, 1, -3]} 
         size={[5, 2, 4]} 
-        color={roomsData[1].available ? "#4caf50" : "#ff9800"}
+        color={roomsData[1].available ? "#4caf50" : "#4a4a4a"}
         onClick={() => handleClick('102')}
         label={roomsData[1].name}
       />
       <Room 
         position={[7, 1, -3]} 
         size={[5, 2, 4]} 
-        color={roomsData[2].available ? "#4caf50" : "#ff9800"}
+        color={roomsData[2].available ? "#4caf50" : "#4a4a4a"}
         onClick={() => handleClick('103')}
         label={roomsData[2].name}
       />
@@ -112,38 +112,26 @@ export default function BuildingModel({ onRoomClick, selectedDate, selectedHour,
       <Room 
         position={[-7, 1, 3]} 
         size={[5, 2, 4]} 
-        color={roomsData[3].available ? "#4caf50" : "#ff9800"}
+        color={roomsData[3].available ? "#4caf50" : "#4a4a4a"}
         onClick={() => handleClick('104')}
         label={roomsData[3].name}
       />
       <Room 
         position={[0, 1, 3]} 
         size={[5, 2, 4]} 
-        color={roomsData[4].available ? "#4caf50" : "#ff9800"}
+        color={roomsData[4].available ? "#4caf50" : "#4a4a4a"}
         onClick={() => handleClick('105')}
         label={roomsData[4].name}
       />
       <Room 
         position={[7, 1, 3]} 
         size={[5, 2, 4]} 
-        color={roomsData[5].available ? "#4caf50" : "#ff9800"}
+        color={roomsData[5].available ? "#4caf50" : "#4a4a4a"}
         onClick={() => handleClick('106')}
         label={roomsData[5].name}
       />
       
-      {/* Corridors/hallways */}
-      <mesh position={[0, 1, 0]} castShadow receiveShadow>
-        <boxGeometry args={[20, 0.2, 2]} />
-        <meshStandardMaterial color="#b0b0b0" />
-      </mesh>
-      <mesh position={[-3.5, 1, 0]} castShadow receiveShadow>
-        <boxGeometry args={[2, 0.2, 10]} />
-        <meshStandardMaterial color="#b0b0b0" />
-      </mesh>
-      <mesh position={[3.5, 1, 0]} castShadow receiveShadow>
-        <boxGeometry args={[2, 0.2, 10]} />
-        <meshStandardMaterial color="#b0b0b0" />
-      </mesh>
+
     </group>
   );
 }
@@ -156,7 +144,7 @@ function Room({ position, size, color, onClick, label }) {
 
   useFrame(() => {
     if (hovered) {
-      meshRef.current.scale.set(1.02, 1.02, 1.02);
+      meshRef.current.scale.set(1, 1, 1);
     } else {
       meshRef.current.scale.set(1, 1, 1);
     }

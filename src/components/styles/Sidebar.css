@@ -57,7 +57,7 @@
 }
 
 .status-indicator.booked {
-  background-color: #f44336;
+  background-color: #4a4a4a; /* Changed from #ff9800 to dark gray */
 }
 
 .room-details {

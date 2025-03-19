@@ -11,9 +11,12 @@ export default function SelectionIndicator({ selectedDate, selectedHour, selecte
   }, [selectedHour]);
   
   // Check if this specific slot is booked using shared booking data
-  const isBooked = selectedRoom && selectedDate && selectedHour !== null
-    ? getBooking(selectedRoom.id, selectedDate, selectedHour) !== null
-    : false;
+  const booking = selectedRoom && selectedDate && selectedHour !== null
+    ? getBooking(selectedRoom.id, selectedDate, selectedHour)
+    : null;
+
+  // Check the actual status field from the booking
+  const isBooked = booking ? (booking.status && booking.status.toLowerCase() === "booked") : false;
   
   // Simplified and more robust formatHour function
   const formatHour = (hour) => {
@@ -37,9 +40,9 @@ export default function SelectionIndicator({ selectedDate, selectedHour, selecte
     return `${hourStr}:00 - ${nextHour}:00`;
   };
   
-  // Display status based on selections
+  // Display status based on selections and actual booking status
   const availabilityStatus = selectedRoom && selectedDate && selectedHour !== null
-    ? isBooked ? 'Booked' : 'Available'
+    ? isBooked ? 'Booked' : 'Available' 
     : 'Select date, time, and room';
   
   const availabilityClass = isBooked ? 'booked' : 'available';

@@ -1,6 +1,6 @@
 .time-selection-bar {
   background-color: transparent; 
-  padding: 5px 15px;
+  padding: 0px 15px;
   /* Removed border-bottom to clean up the design */
   /* border-bottom: 1px solid #e1e4e8; */
 }
@@ -16,7 +16,7 @@
   display: flex;
   width: 100%;
   gap: 0; /* Remove extra gap for continuous look */
-  border: 1px solid #e1e4e8; /* Outline of full bar */
+  /* border: 1px solid #e1e4e8; Outline of full bar */
 }
 
 .time-slot {
@@ -26,10 +26,8 @@
   align-items: center;
   justify-content: center; /* Center vertically and horizontally */
   padding: 8px 0;
-  border: none;
-  border-right: 1px solid #e1e4e8; /* Vertical separator */
-  background-color: transparent; /* Remove individual background */
-  transition: background-color 0.2s ease;
+  background-color: transparent; 
+  position: relative; /* Uncomment/add this to ensure arrow positioning works */
 }
 
 .time-slot:last-child {
@@ -42,14 +40,18 @@
 }
 
 .time-slot.booked {
-  background-color: #ff9800;
+  background-color: #4a4a4a; /* Changed from #ff9800 (orange) to dark gray */
   color: white;
   cursor: not-allowed;
 }
 
 .time-slot.booked.selected {
-  background-color: #f44336; /* Red for booked and clicked */
+  background-color: #333333; /* Darker gray for booked and selected */
   color: white;
+}
+
+.time-slot.booked.selected::after {
+  border-top-color: #333333; /* Match the booked+selected background color */
 }
 
 .time-slot:hover:not(.booked) {
@@ -62,6 +64,21 @@
   color: white;
   border: none;
   transform: none; /* Removed scaling effect */
+}
+
+/* Revised arrow style */
+.time-slot.selected::after {
+  content: '';
+  position: absolute;
+  bottom: -12px; /* Position slightly lower */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 12px solid #2196f3; /* Make arrow slightly larger */
+  z-index: 5; /* Increase z-index to ensure visibility */
 }
 
 .time-slot.selected .hour-display {
