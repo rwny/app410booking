@@ -1,0 +1,150 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 350px;
+  height: 100%;
+  background-color: transparent; /* Changed from white to transparent */
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  overflow-y: auto;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.sidebar-content {
+  padding: 20px;
+  padding-top: 40px;
+  background-color: rgba(255, 255, 255, 0.7); /* Added semi-transparent white for content */
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.room-status {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.status-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.status-indicator.available {
+  background-color: #4caf50;
+}
+
+.status-indicator.booked {
+  background-color: #f44336;
+}
+
+.room-details {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: rgba(245, 245, 245, 0.8); /* Made slightly transparent */
+  border-radius: 8px;
+}
+
+.booking-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.time-slots {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.time-slots button {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+}
+
+.time-slots button.selected {
+  background-color: #2196f3;
+  color: white;
+  border-color: #2196f3;
+}
+
+.select-time-instruction {
+  margin: 15px 0;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  font-style: italic;
+}
+
+.book-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.book-button:disabled {
+  background-color: #9e9e9e;
+  cursor: not-allowed;
+}
+
+.success-message {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.error-message {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f8d7da;
+  color: #721c24;
+  border-radius: 4px;
+  text-align: center;
+}
