@@ -16,16 +16,17 @@ const generateRoomData = () => {
     ['Video Conferencing', 'Large Display', 'Conference Phone']
   ];
   
+  // Room IDs are now 101-106 instead of room1-room6
+  const roomIds = [101, 102, 103, 104, 105, 106];
+  
   return Array(6).fill().map((_, index) => {
-    // Random room number between 101-399
-    const roomNumber = Math.floor(Math.random() * 299) + 101;
     const roomType = roomTypes[index % roomTypes.length];
     const capacity = Math.floor(Math.random() * 30) + 15; // 15-45 capacity
     const available = Math.random() > 0.3; // 70% chance of being available
     
     return {
-      id: `room${index + 1}`,
-      name: `${roomType} ${roomNumber}`,
+      id: roomIds[index].toString(), // Convert to string for consistency with API
+      name: `${roomType} ${roomIds[index]}`,
       capacity: capacity,
       amenities: amenitiesList[index % amenitiesList.length],
       available: available
@@ -62,21 +63,21 @@ export default function BuildingModel({ onRoomClick }) {
         position={[-7, 1, -3]} 
         size={[5, 2, 4]} 
         color={roomsData[0].available ? "#92d36e" : "#d36e6e"}
-        onClick={() => handleClick('room1')} 
+        onClick={() => handleClick('101')} 
         label={roomsData[0].name}
       />
       <Room 
         position={[0, 1, -3]} 
         size={[5, 2, 4]} 
         color={roomsData[1].available ? "#92d36e" : "#d36e6e"}
-        onClick={() => handleClick('room2')}
+        onClick={() => handleClick('102')}
         label={roomsData[1].name}
       />
       <Room 
         position={[7, 1, -3]} 
         size={[5, 2, 4]} 
         color={roomsData[2].available ? "#92d36e" : "#d36e6e"}
-        onClick={() => handleClick('room3')}
+        onClick={() => handleClick('103')}
         label={roomsData[2].name}
       />
       
@@ -85,21 +86,21 @@ export default function BuildingModel({ onRoomClick }) {
         position={[-7, 1, 3]} 
         size={[5, 2, 4]} 
         color={roomsData[3].available ? "#92d36e" : "#d36e6e"}
-        onClick={() => handleClick('room4')}
+        onClick={() => handleClick('104')}
         label={roomsData[3].name}
       />
       <Room 
         position={[0, 1, 3]} 
         size={[5, 2, 4]} 
         color={roomsData[4].available ? "#92d36e" : "#d36e6e"}
-        onClick={() => handleClick('room5')}
+        onClick={() => handleClick('105')}
         label={roomsData[4].name}
       />
       <Room 
         position={[7, 1, 3]} 
         size={[5, 2, 4]} 
         color={roomsData[5].available ? "#92d36e" : "#d36e6e"}
-        onClick={() => handleClick('room6')}
+        onClick={() => handleClick('106')}
         label={roomsData[5].name}
       />
       

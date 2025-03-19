@@ -6,10 +6,27 @@
   flex-direction: column;
 }
 
+.time-slot-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 .time-slot-label {
   font-weight: 500;
-  margin-bottom: 10px;
-  text-align: center;
+}
+
+.date-selector {
+  display: flex;
+  align-items: center;
+}
+
+.date-selector input {
+  padding: 5px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
 }
 
 .time-slots-container {

@@ -1,12 +1,20 @@
 import { useState, useEffect } from 'react';
+import { useBookingData } from '../services/bookingDataService';
 import './TimeSlotBar.css';
 
-export default function TimeSlotBar({ selectedRoom, selectedDate, onTimeSlotSelect }) {
-  const [bookings, setBookings] = useState([]);
-  const [loading, setLoading] = useState(false);
+export default function TimeSlotBar({ selectedRoom, selectedDate, onTimeSlotSelect, useMockData = false }) {
   const [currentHour, setCurrentHour] = useState(new Date().getHours());
   const [selectedSlot, setSelectedSlot] = useState(null);
+  const { loading, getBookingsForRoomAndDate } = useBookingData(useMockData);
   
+  // Reset selected slot when date changes
+  useEffect(() => {
+    setSelectedSlot(null);
+    if (onTimeSlotSelect) {
+      onTimeSlotSelect(null);
+    }
+  }, [selectedDate, onTimeSlotSelect]);
+
   // Update current hour every minute
   useEffect(() => {
     const timer = setInterval(() => {
@@ -25,32 +33,14 @@ export default function TimeSlotBar({ selectedRoom, selectedDate, onTimeSlotSele
     };
   });
 
-  // Fetch bookings for the selected room and date
-  useEffect(() => {
-    if (selectedRoom && selectedDate) {
-      setLoading(true);
-      fetch(`http://localhost:5000/bookings?roomId=${selectedRoom.id}&date=${selectedDate}`)
-        .then(response => response.json())
-        .then(data => {
-          setBookings(data);
-          setLoading(false);
-        })
-        .catch(error => {
-          console.error('Error fetching bookings:', error);
-          setLoading(false);
-        });
-    }
-  }, [selectedRoom, selectedDate]);
+  // Get booking data for the selected room and date
+  const roomBookings = selectedRoom && selectedDate ? 
+    getBookingsForRoomAndDate(selectedRoom.id, selectedDate) : [];
 
   // Mark booked time slots
   const markedTimeSlots = timeSlots.map(slot => {
-    // Check if this time slot is booked
-    const isBooked = bookings.some(booking => {
-      const [startTime] = booking.timeSlot.split(' - ');
-      const bookingHour = parseInt(startTime.split(':')[0]);
-      return bookingHour === slot.hour;
-    });
-
+    const isBooked = roomBookings[slot.hour]?.isBooked || false;
+    
     return {
       ...slot,
       isBooked,
@@ -69,7 +59,7 @@ export default function TimeSlotBar({ selectedRoom, selectedDate, onTimeSlotSele
   // Handle time slot selection
   const handleTimeSlotClick = (slot) => {
     if (!slot.isBooked) {
-      const timeSlot = `${slot.label}:00 - ${(slot.hour + 1) % 24}:00`;
+      const timeSlot = `${slot.label}:00 - ${String((slot.hour + 1) % 24).padStart(2, '0')}:00`;
       setSelectedSlot(slot.hour);
       if (onTimeSlotSelect) {
         onTimeSlotSelect(timeSlot);
@@ -80,7 +70,7 @@ export default function TimeSlotBar({ selectedRoom, selectedDate, onTimeSlotSele
   return (
     <div className="time-slot-bar">
       <div className="time-slot-label">
-        {selectedRoom ? `${selectedRoom.name} - ${selectedDate}` : 'Select a room to view availability'}
+        {selectedRoom ? `${selectedRoom.name} - Time Slots` : 'Select a room to view availability'}
       </div>
       <div className="time-slots-container">
         {markedTimeSlots.map((slot) => (

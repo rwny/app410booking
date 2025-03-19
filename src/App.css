@@ -33,7 +33,23 @@
   background-color: #2980b9;
 }
 
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
 .content {
   flex: 1;
   position: relative;
+  display: flex;
+}
+
+@media (min-width: 992px) {
+  .app-container {
+    flex-direction: column;
+  }
+  
+  .dashboard {
+    width: 100%;
+  }
 }

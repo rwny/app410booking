@@ -4,7 +4,13 @@ import { OrbitControls } from '@react-three/drei';
 import BuildingModel from './components/BuildingModel';
 import Sidebar from './components/Sidebar';
 import TimeSlotBar from './components/TimeSlotBar';
+import DaySelectionBar from './components/DaySelectionBar';
+// Import is kept but component is not used for now
+// import RoomGrid from './components/RoomGrid';
 import './App.css';
+
+// Set to true to use mock data instead of real API
+const USE_MOCK_DATA = true;
 
 export default function App() {
   const [selectedRoom, setSelectedRoom] = useState(null);
@@ -27,10 +33,24 @@ export default function App() {
 
   const handleDateChange = (date) => {
     setSelectedDate(date);
+    // Reset selected time slot when date changes
+    setSelectedTimeSlot(null);
   };
 
   const handleTimeSlotSelect = (timeSlot) => {
     setSelectedTimeSlot(timeSlot);
+  };
+
+  const handleRoomSelect = (roomId) => {
+    // Find room data
+    const room = {
+      id: roomId,
+      // We could fetch more details about the room here
+      name: `Room ${roomId}`,
+      available: true // This would come from the API
+    };
+    setSelectedRoom(room);
+    setShowSidebar(true);
   };
 
   return (
@@ -43,11 +63,21 @@ export default function App() {
         </nav>
       </header>
       
-      <TimeSlotBar 
-        selectedRoom={selectedRoom} 
-        selectedDate={selectedDate}
-        onTimeSlotSelect={handleTimeSlotSelect} 
-      />
+      <div className="dashboard">
+        <DaySelectionBar 
+          selectedDate={selectedDate} 
+          onDateSelect={handleDateChange} 
+        />
+        
+        <TimeSlotBar 
+          selectedRoom={selectedRoom} 
+          selectedDate={selectedDate}
+          onTimeSlotSelect={handleTimeSlotSelect}
+          useMockData={USE_MOCK_DATA}
+        />
+        
+        {/* RoomGrid component hidden for now */}
+      </div>
       
       <div className="content">
         <Canvas shadows camera={{ position: [10, 10, 10], fov: 60 }}>
@@ -70,6 +100,7 @@ export default function App() {
             selectedDate={selectedDate}
             onDateChange={handleDateChange}
             selectedTimeSlot={selectedTimeSlot}
+            useMockData={USE_MOCK_DATA}
           />
         )}
       </div>
