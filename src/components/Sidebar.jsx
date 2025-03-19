@@ -77,16 +77,6 @@ export default function Sidebar({ roomData, onClose, selectedDate, onDateChange 
           <div className="booking-form">
             <h3>Book This Room</h3>
             
-            {/* <div className="form-group">
-              <label>Date:</label>
-              <input 
-                type="date" 
-                value={selectedDate}
-                min={getFormattedDate()}
-                onChange={handleDateChange}
-              />
-            </div> */}
-            
             <p className="select-time-instruction">Click on a time slot in the bar above to select booking time</p>
             
             <button 

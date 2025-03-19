@@ -67,9 +67,6 @@ export default function TopbarTimeSelect({ selectedRoom, selectedDate, onTimeSlo
   
   return (
     <div className="time-selection-bar">
-      <div className="time-bar-label">
-        {selectedRoom ? `${selectedRoom.name} – Select Time` : 'Select a room to view available times'}
-      </div>
       <div className="times-container">
         {timeSlots.map((slot) => (
           <div 

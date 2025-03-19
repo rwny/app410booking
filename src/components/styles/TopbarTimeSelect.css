@@ -1,7 +1,8 @@
 .time-selection-bar {
-  background-color: #f8f9fa;
-  padding: 10px 15px;
-  border-bottom: 1px solid #e1e4e8;
+  background-color: transparent; 
+  padding: 5px 15px;
+  /* Removed border-bottom to clean up the design */
+  /* border-bottom: 1px solid #e1e4e8; */
 }
 
 .time-bar-label {
@@ -54,13 +55,12 @@
 .time-slot.selected {
   background-color: #2196f3;  /* Set selected color to blue */
   color: white;
-  border: 3px solid white;
-  transform: scale(1.05);
+  border: none;
+  transform: none; /* Removed scaling effect */
 }
 
-/* Increase font size for the selected slot's hour display */
 .time-slot.selected .hour-display {
-  font-size: 22px;
+  font-size: 18px;  /* Keep text size unchanged */
 }
 
 /* Ensure any rounding is removed */

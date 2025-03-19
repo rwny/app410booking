@@ -1,7 +1,8 @@
 .day-selection-bar {
-  background-color: #f8f9fa;
-  padding: 10px 15px;
-  border-bottom: 1px solid #e1e4e8;
+  background-color: transparent; 
+  padding: 5px 15px;
+  /* Removed border-bottom to clean up the design */
+  /* border-bottom: 1px solid #e1e4e8; */
 }
 
 .days-container {
@@ -13,33 +14,65 @@
 .day-slot {
   flex: 1;
   display: flex;
-  flex-direction: row; /* Previously: column */
+  flex-direction: row; /* contents in one row */
   align-items: center;
-  padding: 12px 0; /* Reduced vertical padding */
-  background-color: white;
+  justify-content: center;
+  padding: 8px 0;
+  background-color: white;           /* Normal state: white */
+  color: black;                      /* Text always black */
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s ease;
   border: 2px solid transparent;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 60px;
+}
+
+.day-slot > * {
+  margin: 0 2px;
+  display: inline-block;
+  text-align: center;
 }
 
 .day-slot:hover {
-  background-color: #f0f0f0;
+  background-color: #ADD8E6;         /* Light blue on hover */
+  color: black;                      /* Text remains black */
   transform: translateY(-2px);
 }
 
+/* Remove or comment out the override that forces text to white on hover/selected */
+/*
+.day-slot:hover .day-of-week,
+.day-slot:hover .date-display,
+.day-slot:hover .month-display,
+.day-slot.selected .day-of-week,
+.day-slot.selected .date-display,
+.day-slot.selected .month-display {
+  color: white;
+}
+*/
+
+/* For selected state: set background to blue and force text to black */
 .day-slot.selected {
-  border-color: #2196f3;
-  background-color: #e3f2fd;
+  background-color: #2196f3;         /* Blue when selected */
+  color: black;
+}
+
+.day-slot.selected .day-of-week,
+.day-slot.selected .date-display,
+.day-slot.selected .month-display {
+  color: black;
 }
 
 .day-slot.today {
-  background-color: #e8f5e9;
+  background-color: white;
+  color: black;
 }
 
 .day-slot.today.selected {
-  background-color: #c8e6c9;
+  background-color: #2196f3;
+  color: black;
 }
 
 .day-of-week {

@@ -7,6 +7,7 @@ import TopbarDaySelect from './components/TopbarDaySelect';
 import TopbarTimeSelect from './components/TopbarTimeSelect';
 import SelectionIndicator from './components/SelectionIndicator';
 import './App.css';
+import './components/TopbarContainer.css'; // new CSS for topbar container
 
 // Set to true to use mock data instead of real API
 const USE_MOCK_DATA = true;
@@ -69,35 +70,28 @@ export default function App() {
 
   return (
     <div className="app-container">
-      <header className="header">
-        <h3>School Room Booking System</h3>
-        <nav>
-          <button>Login</button>
-          <button>My Bookings</button>
-        </nav>
-      </header>
-      
-      <div className="dashboard">
+      {/* Header removed */}
+      {/* Topbar container floating on 3D canvas */}
+      <div className="topbar-container">
         <TopbarDaySelect 
           selectedDate={selectedDate} 
           onDateSelect={handleDateChange} 
         />
-        
         <TopbarTimeSelect 
           selectedRoom={selectedRoom} 
           selectedDate={selectedDate}
           onTimeSlotSelect={handleTimeSlotSelect}
           useMockData={USE_MOCK_DATA}
         />
-      </div>
-      
-      <div className="content">
         <SelectionIndicator 
           selectedDate={selectedDate}
           selectedHour={selectedHour}
           selectedRoom={selectedRoom}
           useMockData={USE_MOCK_DATA}
         />
+      </div>
+      
+      <div className="content">
         
         <Canvas shadows camera={{ position: [10, 10, 10], fov: 60 }}>
           <ambientLight intensity={0.5} />

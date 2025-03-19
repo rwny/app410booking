@@ -1,0 +1,13 @@
+.topbar-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it floats above the canvas */
+  pointer-events: auto;  /* Allow clicking the buttons */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* Optionally add padding if needed */
+  padding: 10px;
+}
