@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import './DaySelectionBar.css';
+import './styles/TopbarDaySelect.css';
 
-export default function DaySelectionBar({ selectedDate, onDateSelect }) {
+export default function TopbarDaySelect({ selectedDate, onDateSelect }) {
   // Generate array of the next 7 days
   const [days, setDays] = useState([]);
   

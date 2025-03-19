@@ -1,0 +1,120 @@
+.time-selection-bar {
+  background-color: #f8f9fa;
+  padding: 10px 15px;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.time-bar-label {
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Continuous row: distribute 24 slots equally */
+.times-container {
+  display: flex;
+  width: 100%;
+  gap: 0; /* Remove extra gap for continuous look */
+  border: 1px solid #e1e4e8; /* Outline of full bar */
+}
+
+.time-slot {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center vertically and horizontally */
+  padding: 8px 0;
+  border: none;
+  border-right: 1px solid #e1e4e8; /* Vertical separator */
+  background-color: transparent; /* Remove individual background */
+  transition: background-color 0.2s ease;
+}
+
+.time-slot:last-child {
+  border-right: none; /* No extra border on last slot */
+}
+
+.time-slot.available {
+  background-color: #4caf50;
+  color: white;
+}
+
+.time-slot.booked {
+  background-color: #ff9800;
+  color: white;
+  cursor: not-allowed;
+}
+
+.time-slot:hover:not(.booked) {
+  background-color: #2196f3;  /* Set hover color to blue */
+  color: white;
+}
+
+.time-slot.selected {
+  background-color: #2196f3;  /* Set selected color to blue */
+  color: white;
+  border: 3px solid white;
+  transform: scale(1.05);
+}
+
+/* Increase font size for the selected slot's hour display */
+.time-slot.selected .hour-display {
+  font-size: 22px;
+}
+
+/* Ensure any rounding is removed */
+.time-slot, .time-slot.selected, .time-slot.now {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.time-slot.now {
+  border-color: #4caf50;
+}
+
+/* NEW RULE: Keep current time highlight when a slot is both now and selected */
+.time-slot.now.selected {
+  border-color: #4caf50;
+}
+
+.hour-display {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hour-label {
+  font-size: 12px;
+  color: #666;
+}
+
+.availability-label {
+  font-size: 10px;
+  margin-top: 5px;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.available .availability-label {
+  background-color: #4caf50;
+  color: white;
+}
+
+.booked .availability-label {
+  background-color: #ff9800;
+  color: white;
+}
+
+.loading-indicator {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+
+/* For small screens: ensure horizontal scrolling works well */
+@media (max-width: 768px) {
+  .time-slot {
+    padding: 6px;
+  }
+}

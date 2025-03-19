@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Sidebar.css';
+import './styles/Sidebar.css';
 
 export default function Sidebar({ roomData, onClose, selectedDate, onDateChange }) {
   const [selectedTimeSlot, setSelectedTimeSlot] = useState(null);

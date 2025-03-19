@@ -1,0 +1,83 @@
+.day-selection-bar {
+  background-color: #f8f9fa;
+  padding: 10px 15px;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.days-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.day-slot {
+  flex: 1;
+  display: flex;
+  flex-direction: row; /* Previously: column */
+  align-items: center;
+  padding: 12px 0; /* Reduced vertical padding */
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.day-slot:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.day-slot.selected {
+  border-color: #2196f3;
+  background-color: #e3f2fd;
+}
+
+.day-slot.today {
+  background-color: #e8f5e9;
+}
+
+.day-slot.today.selected {
+  background-color: #c8e6c9;
+}
+
+.day-of-week {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 4px;
+  line-height: 1;
+}
+
+.date-display {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 4px;
+  line-height: 1;
+}
+
+.month-display {
+  font-size: 14px;
+  color: #666;
+  margin: 0 4px;
+  line-height: 1;
+}
+
+.day-of-week, 
+.date-display, 
+.month-display {
+  margin: 0 4px;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center; /* Added to center the text */
+}
+
+@media (max-width: 768px) {
+  .days-container {
+    overflow-x: auto;
+  }
+  
+  .day-slot {
+    min-width: 80px;
+  }
+}

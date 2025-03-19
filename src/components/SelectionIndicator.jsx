@@ -1,24 +1,44 @@
-import React from 'react';
-import './SelectionIndicator.css';
+import React, { useEffect } from 'react';
+import './styles/SelectionIndicator.css';
 import { useBookingData } from '../services/bookingDataService';
 
 export default function SelectionIndicator({ selectedDate, selectedHour, selectedRoom, useMockData = true }) {
   const { getBooking } = useBookingData(useMockData);
   
+  // Debug logging with more detailed information
+  useEffect(() => {
+    console.log(`SelectionIndicator: selectedHour=${selectedHour}, type=${typeof selectedHour}, value is ${selectedHour === null ? 'null' : selectedHour}`);
+  }, [selectedHour]);
+  
   // Check if this specific slot is booked
-  const isBooked = selectedRoom && selectedDate && selectedHour !== undefined && selectedHour !== null
+  const isBooked = selectedRoom && selectedDate && selectedHour !== null
     ? getBooking(selectedRoom.id, selectedDate, selectedHour) !== null
     : false;
   
-  // Format the hour for display
+  // Simplified and more robust formatHour function
   const formatHour = (hour) => {
-    if (hour === undefined || hour === null) return 'Not selected';
-    const hourStr = String(hour).padStart(2, '0');
-    const nextHour = String((hour + 1) % 24).padStart(2, '0');
+    // If no hour is selected
+    if (hour === null || hour === undefined) {
+      return 'Not selected';
+    }
+    
+    // Convert to number (if it's not already)
+    const hourNum = Number(hour);
+    
+    // Check if it's a valid number
+    if (isNaN(hourNum) || hourNum < 0 || hourNum > 23) {
+      console.log(`Invalid hour: ${hour}, converted to ${hourNum}`);
+      return 'Not selected';
+    }
+    
+    // Format properly
+    const hourStr = String(hourNum).padStart(2, '0');
+    const nextHour = String((hourNum + 1) % 24).padStart(2, '0');
     return `${hourStr}:00 - ${nextHour}:00`;
   };
   
-  const availabilityStatus = selectedRoom && selectedDate && selectedHour !== undefined && selectedHour !== null
+  // Display status based on selections
+  const availabilityStatus = selectedRoom && selectedDate && selectedHour !== null
     ? isBooked ? 'Booked' : 'Available'
     : 'Select date, time, and room';
   

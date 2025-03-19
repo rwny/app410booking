@@ -3,11 +3,9 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import BuildingModel from './components/BuildingModel';
 import Sidebar from './components/Sidebar';
-import TimeSlotBar from './components/TimeSlotBar';
-import DaySelectionBar from './components/DaySelectionBar';
+import TopbarDaySelect from './components/TopbarDaySelect';
+import TopbarTimeSelect from './components/TopbarTimeSelect';
 import SelectionIndicator from './components/SelectionIndicator';
-// Import is kept but component is not used for now
-// import RoomGrid from './components/RoomGrid';
 import './App.css';
 
 // Set to true to use mock data instead of real API
@@ -18,7 +16,7 @@ export default function App() {
   const [showSidebar, setShowSidebar] = useState(false);
   const [selectedDate, setSelectedDate] = useState(getFormattedDate());
   const [selectedTimeSlot, setSelectedTimeSlot] = useState(null);
-  const [selectedHour, setSelectedHour] = useState(new Date().getHours()); // Default to current hour
+  const [selectedHour, setSelectedHour] = useState(null);
 
   function getFormattedDate() {
     const today = new Date();
@@ -39,10 +37,22 @@ export default function App() {
     setSelectedTimeSlot(null);
   };
 
+  // Fixed time slot handler to ensure it always works
   const handleTimeSlotSelect = (timeSlot, hour) => {
-    console.log(`App received: timeSlot=${timeSlot}, hour=${hour}`);
+    console.log(`App received: timeSlot=${timeSlot}, hour=${hour}, type=${typeof hour}`);
+    
     setSelectedTimeSlot(timeSlot);
+    
+    // Special case for null/undefined
+    if (hour === null || hour === undefined) {
+      console.log('Setting selectedHour to null');
+      setSelectedHour(null);
+      return; // Important: exit early
+    }
+    
+    // For numeric values, simple direct assignment
     setSelectedHour(hour);
+    console.log(`Set selectedHour to ${hour}`);
   };
 
   const handleRoomSelect = (roomId) => {
@@ -68,19 +78,17 @@ export default function App() {
       </header>
       
       <div className="dashboard">
-        <DaySelectionBar 
+        <TopbarDaySelect 
           selectedDate={selectedDate} 
           onDateSelect={handleDateChange} 
         />
         
-        <TimeSlotBar 
+        <TopbarTimeSelect 
           selectedRoom={selectedRoom} 
           selectedDate={selectedDate}
           onTimeSlotSelect={handleTimeSlotSelect}
           useMockData={USE_MOCK_DATA}
         />
-        
-        {/* RoomGrid component hidden for now */}
       </div>
       
       <div className="content">
