@@ -1,0 +1,52 @@
+.selection-indicator {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  z-index: 100;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  min-width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.selection-header {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 5px;
+}
+
+.selection-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.selection-details div span {
+  font-weight: 500;
+}
+
+.availability {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+}
+
+.availability.available span {
+  color: #4caf50;
+}
+
+.availability.booked span {
+  color: #f44336;
+}
+
+.time-value {
+  color: #ffeb3b;
+  font-weight: bold;
+}

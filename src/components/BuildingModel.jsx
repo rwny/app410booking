@@ -1,10 +1,11 @@
-import { useRef, useState, useMemo } from 'react'; 'react';
+import { useRef, useState, useMemo, useEffect } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { useGLTF, Html } from '@react-three/drei';
+import { useBookingData } from '../services/bookingDataService';
 
 import * as THREE from 'three';
 
-// Create more structured room data with random availability
+// Create structured room data
 const generateRoomData = () => {
   const roomTypes = ['Lecture Hall', 'Classroom', 'Lab', 'Seminar Room', 'Study Room', 'Conference Room'];
   const amenitiesList = [
@@ -16,30 +17,51 @@ const generateRoomData = () => {
     ['Video Conferencing', 'Large Display', 'Conference Phone']
   ];
   
-  // Room IDs are now 101-106 instead of room1-room6
   const roomIds = [101, 102, 103, 104, 105, 106];
   
   return Array(6).fill().map((_, index) => {
     const roomType = roomTypes[index % roomTypes.length];
-    const capacity = Math.floor(Math.random() * 30) + 15; // 15-45 capacity
-    const available = Math.random() > 0.3; // 70% chance of being available
+    const capacity = Math.floor(Math.random() * 30) + 15;
     
     return {
-      id: roomIds[index].toString(), // Convert to string for consistency with API
+      id: roomIds[index].toString(),
       name: `${roomType} ${roomIds[index]}`,
       capacity: capacity,
       amenities: amenitiesList[index % amenitiesList.length],
-      available: available
+      available: true // Default to available, will be updated based on bookings
     };
   });
 };
 
-// Temporary building model with rooms arranged in a 2x3 grid
-export default function BuildingModel({ onRoomClick }) {
+export default function BuildingModel({ onRoomClick, selectedDate, selectedHour, useMockData = true }) {
   const groupRef = useRef();
+  const { getBookingsForRoomAndDate } = useBookingData(useMockData);
   
-  // Generate room data using useMemo to avoid regenerating on every render
-  const roomsData = useMemo(() => generateRoomData(), []);
+  // Generate base room data using useMemo
+  const baseRoomData = useMemo(() => generateRoomData(), []);
+  
+  // State for room availability that will be updated based on bookings
+  const [roomsData, setRoomsData] = useState(baseRoomData);
+  
+  // Update room availability based on selected date and hour
+  useEffect(() => {
+    if (selectedDate && selectedHour !== undefined) {
+      const hour = typeof selectedHour === 'number' ? selectedHour : 
+                 selectedHour ? parseInt(selectedHour.split(':')[0]) : null;
+      
+      if (hour !== null) {
+        const updatedRoomsData = baseRoomData.map(room => {
+          const bookings = getBookingsForRoomAndDate(room.id, selectedDate);
+          const isBooked = bookings[hour]?.isBooked || false;
+          return {
+            ...room,
+            available: !isBooked
+          };
+        });
+        setRoomsData(updatedRoomsData);
+      }
+    }
+  }, [selectedDate, selectedHour, baseRoomData, getBookingsForRoomAndDate]);
   
   // Handle room click
   const handleClick = (roomId) => {

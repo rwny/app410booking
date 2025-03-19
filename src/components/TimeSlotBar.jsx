@@ -61,8 +61,12 @@ export default function TimeSlotBar({ selectedRoom, selectedDate, onTimeSlotSele
     if (!slot.isBooked) {
       const timeSlot = `${slot.label}:00 - ${String((slot.hour + 1) % 24).padStart(2, '0')}:00`;
       setSelectedSlot(slot.hour);
+      
+      // Debug log to verify the hour is being sent correctly
+      console.log(`Selected time slot: ${timeSlot}, hour: ${slot.hour}`);
+      
       if (onTimeSlotSelect) {
-        onTimeSlotSelect(timeSlot);
+        onTimeSlotSelect(timeSlot, slot.hour); // Pass the hour to parent component
       }
     }
   };

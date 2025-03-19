@@ -5,6 +5,7 @@ import BuildingModel from './components/BuildingModel';
 import Sidebar from './components/Sidebar';
 import TimeSlotBar from './components/TimeSlotBar';
 import DaySelectionBar from './components/DaySelectionBar';
+import SelectionIndicator from './components/SelectionIndicator';
 // Import is kept but component is not used for now
 // import RoomGrid from './components/RoomGrid';
 import './App.css';
@@ -17,6 +18,7 @@ export default function App() {
   const [showSidebar, setShowSidebar] = useState(false);
   const [selectedDate, setSelectedDate] = useState(getFormattedDate());
   const [selectedTimeSlot, setSelectedTimeSlot] = useState(null);
+  const [selectedHour, setSelectedHour] = useState(new Date().getHours()); // Default to current hour
 
   function getFormattedDate() {
     const today = new Date();
@@ -37,8 +39,10 @@ export default function App() {
     setSelectedTimeSlot(null);
   };
 
-  const handleTimeSlotSelect = (timeSlot) => {
+  const handleTimeSlotSelect = (timeSlot, hour) => {
+    console.log(`App received: timeSlot=${timeSlot}, hour=${hour}`);
     setSelectedTimeSlot(timeSlot);
+    setSelectedHour(hour);
   };
 
   const handleRoomSelect = (roomId) => {
@@ -80,6 +84,13 @@ export default function App() {
       </div>
       
       <div className="content">
+        <SelectionIndicator 
+          selectedDate={selectedDate}
+          selectedHour={selectedHour}
+          selectedRoom={selectedRoom}
+          useMockData={USE_MOCK_DATA}
+        />
+        
         <Canvas shadows camera={{ position: [10, 10, 10], fov: 60 }}>
           <ambientLight intensity={0.5} />
           <directionalLight 
@@ -89,7 +100,12 @@ export default function App() {
             shadow-mapSize-width={1024} 
             shadow-mapSize-height={1024} 
           />
-          <BuildingModel onRoomClick={handleRoomClick} />
+          <BuildingModel 
+            onRoomClick={handleRoomClick}
+            selectedDate={selectedDate}
+            selectedHour={selectedHour} 
+            useMockData={USE_MOCK_DATA}
+          />
           <OrbitControls />
         </Canvas>
         
