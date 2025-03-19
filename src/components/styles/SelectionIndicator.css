@@ -44,7 +44,7 @@
 }
 
 .availability.booked span {
-  color: #f44336;
+  color: #ff9800;  /* Changed from red (#f44336) to orange */
 }
 
 .time-value {

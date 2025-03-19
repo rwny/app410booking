@@ -47,6 +47,11 @@
   cursor: not-allowed;
 }
 
+.time-slot.booked.selected {
+  background-color: #f44336; /* Red for booked and clicked */
+  color: white;
+}
+
 .time-slot:hover:not(.booked) {
   background-color: #2196f3;  /* Set hover color to blue */
   color: white;

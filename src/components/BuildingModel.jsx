@@ -2,6 +2,7 @@ import { useRef, useState, useMemo, useEffect } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { useGLTF, Html } from '@react-three/drei';
 import { useBookingData } from '../services/bookingDataService';
+import staticBookings from '../data/booking_data.json';
 
 import * as THREE from 'three';
 
@@ -45,14 +46,18 @@ export default function BuildingModel({ onRoomClick, selectedDate, selectedHour,
   
   // Update room availability based on selected date and hour
   useEffect(() => {
-    if (selectedDate && selectedHour !== undefined) {
-      const hour = typeof selectedHour === 'number' ? selectedHour : 
-                 selectedHour ? parseInt(selectedHour.split(':')[0]) : null;
-      
+    if (selectedDate && selectedHour !== null) {
+      const hour = typeof selectedHour === 'number'
+        ? selectedHour
+        : selectedHour ? parseInt(selectedHour.split(':')[0]) : null;
       if (hour !== null) {
         const updatedRoomsData = baseRoomData.map(room => {
-          const bookings = getBookingsForRoomAndDate(room.id, selectedDate);
-          const isBooked = bookings[hour]?.isBooked || false;
+          // Look for a matching booking in the static data
+          const booking = staticBookings.find(
+            b => b.roomId === room.id && b.date === selectedDate && parseInt(b.timeSlot.split(':')[0]) === hour
+          );
+          // Use booking.status field: if "booked", room is not available
+          const isBooked = booking && booking.status && booking.status.toLowerCase() === 'booked';
           return {
             ...room,
             available: !isBooked
@@ -61,7 +66,7 @@ export default function BuildingModel({ onRoomClick, selectedDate, selectedHour,
         setRoomsData(updatedRoomsData);
       }
     }
-  }, [selectedDate, selectedHour, baseRoomData, getBookingsForRoomAndDate]);
+  }, [selectedDate, selectedHour, baseRoomData]);
   
   // Handle room click
   const handleClick = (roomId) => {
@@ -84,21 +89,21 @@ export default function BuildingModel({ onRoomClick, selectedDate, selectedHour,
       <Room 
         position={[-7, 1, -3]} 
         size={[5, 2, 4]} 
-        color={roomsData[0].available ? "#92d36e" : "#d36e6e"}
+        color={roomsData[0].available ? "#4caf50" : "#ff9800"} // Green if available, orange if booked
         onClick={() => handleClick('101')} 
         label={roomsData[0].name}
       />
       <Room 
         position={[0, 1, -3]} 
         size={[5, 2, 4]} 
-        color={roomsData[1].available ? "#92d36e" : "#d36e6e"}
+        color={roomsData[1].available ? "#4caf50" : "#ff9800"}
         onClick={() => handleClick('102')}
         label={roomsData[1].name}
       />
       <Room 
         position={[7, 1, -3]} 
         size={[5, 2, 4]} 
-        color={roomsData[2].available ? "#92d36e" : "#d36e6e"}
+        color={roomsData[2].available ? "#4caf50" : "#ff9800"}
         onClick={() => handleClick('103')}
         label={roomsData[2].name}
       />
@@ -107,21 +112,21 @@ export default function BuildingModel({ onRoomClick, selectedDate, selectedHour,
       <Room 
         position={[-7, 1, 3]} 
         size={[5, 2, 4]} 
-        color={roomsData[3].available ? "#92d36e" : "#d36e6e"}
+        color={roomsData[3].available ? "#4caf50" : "#ff9800"}
         onClick={() => handleClick('104')}
         label={roomsData[3].name}
       />
       <Room 
         position={[0, 1, 3]} 
         size={[5, 2, 4]} 
-        color={roomsData[4].available ? "#92d36e" : "#d36e6e"}
+        color={roomsData[4].available ? "#4caf50" : "#ff9800"}
         onClick={() => handleClick('105')}
         label={roomsData[4].name}
       />
       <Room 
         position={[7, 1, 3]} 
         size={[5, 2, 4]} 
-        color={roomsData[5].available ? "#92d36e" : "#d36e6e"}
+        color={roomsData[5].available ? "#4caf50" : "#ff9800"}
         onClick={() => handleClick('106')}
         label={roomsData[5].name}
       />

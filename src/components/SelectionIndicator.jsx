@@ -10,7 +10,7 @@ export default function SelectionIndicator({ selectedDate, selectedHour, selecte
     console.log(`SelectionIndicator: selectedHour=${selectedHour}, type=${typeof selectedHour}, value is ${selectedHour === null ? 'null' : selectedHour}`);
   }, [selectedHour]);
   
-  // Check if this specific slot is booked
+  // Check if this specific slot is booked using shared booking data
   const isBooked = selectedRoom && selectedDate && selectedHour !== null
     ? getBooking(selectedRoom.id, selectedDate, selectedHour) !== null
     : false;

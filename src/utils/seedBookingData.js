@@ -66,7 +66,7 @@ function generateRandomBookings() {
  * Seeds the API with random booking data
  * Warning: This will clear existing data if clearExisting is true
  */
-async function seedBookingData(clearExisting = false) {
+async function seedBookingData(clearExisting = true) {
   try {
     // Step 1: Clear existing data if requested
     if (clearExisting) {

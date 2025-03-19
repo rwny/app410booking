@@ -47,14 +47,15 @@ export default function TopbarTimeSelect({ selectedRoom, selectedDate, onTimeSlo
     return `${year}-${month}-${day}`;
   }
   
-  // Handle click; do not allow selecting booked slots.
+  // Handle click; allow selecting even if the slot is booked so the sidebar can show status.
   function clickTimeSlot(hour) {
     console.log(`Time slot clicked: ${hour}`);
-    const slot = timeSlots.find(s => s.hour === hour);
-    if (slot?.isBooked) {
-      console.log(`Hour ${hour} is booked, skipping selection`);
-      return;
-    }
+    // Removed the check that prevented clicking on booked slots:
+    // const slot = markedTimeSlots.find(s => s.hour === hour);
+    // if (slot?.isBooked) {
+    //   console.log(`Hour ${hour} is booked, skipping selection`);
+    //   return;
+    // }
     setSelectedHour(hour);
     const hourStr = String(hour).padStart(2, '0');
     const nextHourStr = String((hour + 1) % 24).padStart(2, '0');
@@ -72,7 +73,7 @@ export default function TopbarTimeSelect({ selectedRoom, selectedDate, onTimeSlo
           <div 
             key={slot.hour}
             className={`time-slot ${slot.isNow ? 'now' : ''} ${selectedHour === slot.hour ? 'selected' : ''} ${slot.isBooked ? 'booked' : 'available'}`}
-            onClick={() => { if (!slot.isBooked) clickTimeSlot(slot.hour); }}
+            onClick={() => clickTimeSlot(slot.hour)}  // Always allow click, regardless of booking status
             title={`${slot.label}:00 - ${String((slot.hour + 1) % 24).padStart(2, '0')}:00`}
           >
             <div className="hour-display">{slot.label}</div>

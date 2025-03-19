@@ -1,0 +1,7058 @@
+[
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-20",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "00:00 - 01:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "04:00 - 05:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "03:00 - 04:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "10:00 - 11:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "12:00 - 13:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "23:00 - 00:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "16:00 - 17:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "19:00 - 20:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "21:00 - 22:00",
+    "status": "available"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "103",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "01:00 - 02:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "02:00 - 03:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "06:00 - 07:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "09:00 - 10:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "11:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "13:00 - 14:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "14:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "18:00 - 19:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "104",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "05:00 - 06:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "07:00 - 08:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "08:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "15:00 - 16:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "17:00 - 18:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "20:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "22:00 - 23:00",
+    "status": "available"
+  },
+  {
+    "roomId": "105",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "00:00 - 01:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "01:00 - 02:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "02:00 - 03:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "03:00 - 04:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "04:00 - 05:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "05:00 - 06:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "06:00 - 07:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "07:00 - 08:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "08:00 - 09:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "09:00 - 10:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "10:00 - 11:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "11:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "12:00 - 13:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "13:00 - 14:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "14:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "15:00 - 16:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "16:00 - 17:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "17:00 - 18:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "18:00 - 19:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "19:00 - 20:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "20:00 - 21:00",
+    "status": "available"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "21:00 - 22:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "22:00 - 23:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "106",
+    "userId": "",
+    "date": "2025-03-26",
+    "timeSlot": "23:00 - 00:00",
+    "status": "booked"
+  }
+]
