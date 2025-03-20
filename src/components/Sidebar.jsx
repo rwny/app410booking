@@ -57,7 +57,20 @@ export default function Sidebar({ roomData, onClose, selectedDate, selectedHour,
     return `${startHour}:00 - ${endHour}:00`;
   };
 
-  if (!roomData) return null;
+  // Handle the case when no room is selected yet
+  if (!roomData) {
+    return (
+      <div className="sidebar">
+        <button className="close-button" onClick={onClose}>×</button>
+        <div className="sidebar-content">
+          <h2>Welcome to Room Booking</h2>
+          <div className="welcome-message">
+            <p>Please select a room to view details and make bookings.</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="sidebar">

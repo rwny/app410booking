@@ -13,11 +13,23 @@ import './components/TopbarContainer.css';
 const USE_MOCK_DATA = true;
 
 export default function App() {
-  const [selectedRoom, setSelectedRoom] = useState(null);
-  const [showSidebar, setShowSidebar] = useState(false);
+  // Initialize with default selections
+  const [selectedRoom, setSelectedRoom] = useState({
+    id: "101",
+    name: "Room 101",
+    available: true
+  });
+  const [showSidebar, setShowSidebar] = useState(true);
   const [selectedDate, setSelectedDate] = useState(new Date().toISOString().slice(0, 10));
-  const [selectedTimeSlot, setSelectedTimeSlot] = useState(null);
-  const [selectedHour, setSelectedHour] = useState(null);
+  const [selectedTimeSlot, setSelectedTimeSlot] = useState("00:00 - 03:00");
+  const [selectedHour, setSelectedHour] = useState(0); // First time slot (00:00-03:00)
+
+  // useEffect to simulate initial room selection
+  useEffect(() => {
+    // This effect runs once on component mount
+    console.log("Initializing with default selections");
+    // Room 101 is already selected in the state initialization
+  }, []);
 
   const handleRoomClick = (roomId) => {
     console.log(`Room clicked: ${roomId}`);
@@ -97,20 +109,18 @@ export default function App() {
           </Canvas>
         </div>
         
-        {/* Sidebar - conditionally rendered */}
-        {showSidebar && (
-          <div className="sidebar-wrapper">
-            <Sidebar 
-              roomData={selectedRoom} 
-              onClose={() => setShowSidebar(false)}
-              selectedDate={selectedDate}
-              onDateChange={handleDateChange}
-              selectedTimeSlot={selectedTimeSlot}
-              selectedHour={selectedHour} // Pass selectedHour to Sidebar
-              useMockData={USE_MOCK_DATA}
-            />
-          </div>
-        )}
+        {/* Always show the sidebar */}
+        <div className="sidebar-wrapper">
+          <Sidebar 
+            roomData={selectedRoom} 
+            onClose={() => setShowSidebar(false)}
+            selectedDate={selectedDate}
+            onDateChange={handleDateChange}
+            selectedTimeSlot={selectedTimeSlot}
+            selectedHour={selectedHour} // Pass selectedHour to Sidebar
+            useMockData={USE_MOCK_DATA}
+          />
+        </div>
       </div>
     </div>
   );

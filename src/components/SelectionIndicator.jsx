@@ -87,8 +87,23 @@ export default function SelectionIndicator({ selectedDate, selectedHour, selecte
               </div>
             </>
           ) : (
-            <div className="no-selection">
-              Please select a room, date, and time slot.
+            <div className="no-selection-guide">
+              <div className="guide-title">Welcome to Room Booking</div>
+              <div className="guide-steps">
+                <div className="guide-step">
+                  <span className="step-number">1</span>
+                  <span className="step-text">Select a room on the 3D model</span>
+                </div>
+                <div className="guide-step">
+                  <span className="step-number">2</span>
+                  <span className="step-text">Choose a date from the calendar</span>
+                </div>
+                <div className="guide-step">
+                  <span className="step-number">3</span>
+                  <span className="step-text">Pick a time slot</span>
+                </div>
+              </div>
+              <div className="guide-cta">Click on any room to begin</div>
             </div>
           )}
         </div>
