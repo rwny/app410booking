@@ -130,7 +130,6 @@ export default function BuildingModel({ onRoomClick, selectedDate, selectedHour,
         onClick={() => handleClick('106')}
         label={roomsData[5].name}
       />
-      
 
     </group>
   );
