@@ -2,16 +2,26 @@
   position: absolute;
   top: 15px;
   left: 15px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #f8f9fa;
   color: white;
-  padding: 10px 15px;
-  border-radius: 8px;
+  padding: 15px;
+  border-radius: 4px;
   z-index: 100;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   min-width: 250px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   margin-top: 130px; 
+  position: relative;
+}
+
+.indicator-content {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.admin-preview {
+  opacity: 0.5; /* Show dimmed when in admin mode but toggled off */
 }
 
 .selection-header {
@@ -23,13 +33,148 @@
 }
 
 .selection-details {
+  margin-bottom: 8px;
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 5px;
 }
 
 .selection-details div span {
   font-weight: 500;
+}
+
+.detail-label {
+  font-weight: 600;
+  min-width: 50px;
+  color: #555;
+}
+
+.detail-value {
+  color: #333;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.status-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.status-dot.available {
+  background-color: #4caf50;
+}
+
+.status-dot.booked {
+  background-color: #f44336;
+}
+
+.status-text {
+  font-weight: 500;
+}
+
+.no-selection {
+  color: #666;
+  font-style: italic;
+}
+
+/* Improved no-selection guide */
+.no-selection-guide {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  border-left: 4px solid #2196f3;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-out;
+}
+
+.guide-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.guide-steps {
+  margin: 15px 0;
+}
+
+.guide-step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.step-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.step-text {
+  color: #555;
+}
+
+.guide-cta {
+  margin-top: 15px;
+  font-weight: 500;
+  color: #2196f3;
+  font-style: italic;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.admin-controls {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.toggle-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.toggle-button:hover {
+  background-color: #1976d2;
+}
+
+.admin-toggle {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+.admin-toggle:hover {
+  opacity: 1;
 }
 
 .availability {

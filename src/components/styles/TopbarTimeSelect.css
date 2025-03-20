@@ -17,6 +17,9 @@
   width: 100%;
   gap: 0; /* Remove extra gap for continuous look */
   /* border: 1px solid #e1e4e8; Outline of full bar */
+  overflow-x: auto;
+  position: relative;
+  padding: 10px 0;
 }
 
 .time-slot {
@@ -93,6 +96,7 @@
 
 .time-slot.now {
   border-color: #4caf50;
+  /* background-color: rgba(255, 51, 102, 0.1); */
 }
 
 /* NEW RULE: Keep current time highlight when a slot is both now and selected */
@@ -132,6 +136,52 @@
   margin-top: 8px;
   font-size: 12px;
   color: #666;
+}
+
+/* Current time indicator - improved styling */
+.current-time-indicator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  z-index: 10;
+  pointer-events: none; /* So it doesn't interfere with clicks */
+}
+
+.time-marker {
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: #e01b4c; /* Adjust to a more consistent red */
+  animation: pulse 2s infinite;
+}
+
+.time-label {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f0f0f0; /* Light background */
+  color: #333; /* Dark text */
+  border: 1px solid #ccc;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(224, 27, 76, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 4px rgba(224, 27, 76, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(224, 27, 76, 0);
+  }
 }
 
 /* For small screens: ensure horizontal scrolling works well */
