@@ -7,7 +7,7 @@ export default function SelectionIndicator({ selectedDate, selectedHour, selecte
   
   // Debug logging with more detailed information
   useEffect(() => {
-    console.log(`SelectionIndicator: selectedHour=${selectedHour}, type=${typeof selectedHour}, value is ${selectedHour === null ? 'null' : selectedHour}`);
+    // console.log(`SelectionIndicator: selectedHour=${selectedHour}, type=${typeof selectedHour}, value is ${selectedHour === null ? 'null' : selectedHour}`);
   }, [selectedHour]);
   
   // Check if this specific slot is booked using shared booking data

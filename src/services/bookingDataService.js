@@ -15,7 +15,7 @@ export function useBookingData() {
   const fetchAllBookings = async () => {
     try {
       setLoading(true);
-      console.log("Static booking data loaded from booking_data.json", staticBookings);
+      // console.log("Static booking data loaded from booking_data.json", staticBookings);
       const bookingsMap = {};
       staticBookings.forEach(booking => {
         const match = booking.timeSlot.match(/^(\d+):00/);

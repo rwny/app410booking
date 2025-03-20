@@ -6,6 +6,9 @@ import Sidebar from './components/Sidebar';
 import TopbarDaySelect from './components/TopbarDaySelect';
 import TopbarTimeSelect from './components/TopbarTimeSelect';
 import SelectionIndicator from './components/SelectionIndicator';
+// import LoadGLBModel from './components/LoadGLBModel';
+import LoadModel from './components/LoadModel';
+
 import './App.css';
 import './components/TopbarContainer.css'; // new CSS for topbar container
 
@@ -40,20 +43,20 @@ export default function App() {
 
   // Fixed time slot handler to ensure it always works
   const handleTimeSlotSelect = (timeSlot, hour) => {
-    console.log(`App received: timeSlot=${timeSlot}, hour=${hour}, type=${typeof hour}`);
+    // console.log(`App received: timeSlot=${timeSlot}, hour=${hour}, type=${typeof hour}`);
     
     setSelectedTimeSlot(timeSlot);
     
     // Special case for null/undefined
     if (hour === null || hour === undefined) {
-      console.log('Setting selectedHour to null');
+      // console.log('Setting selectedHour to null');
       setSelectedHour(null);
       return; // Important: exit early
     }
     
     // For numeric values, simple direct assignment
     setSelectedHour(hour);
-    console.log(`Set selectedHour to ${hour}`);
+    // console.log(`Set selectedHour to ${hour}`);
   };
 
   const handleRoomSelect = (roomId) => {
@@ -102,12 +105,18 @@ export default function App() {
             shadow-mapSize-width={1024} 
             shadow-mapSize-height={1024} 
           />
-          <BuildingModel 
+          {/* <BuildingModel 
             onRoomClick={handleRoomClick}
             selectedDate={selectedDate}
             selectedHour={selectedHour} 
             useMockData={USE_MOCK_DATA}
-          />
+          /> */}
+          {/* <LoadGLBModel /> */}
+          <mesh>
+            <boxGeometry args={[1, 1, 1]} />
+            <meshStandardMaterial color="red" />
+          </mesh>
+          <LoadModel />
           <OrbitControls />
         </Canvas>
         
