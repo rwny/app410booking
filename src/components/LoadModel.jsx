@@ -1,12 +1,18 @@
 import { useGLTF, Html } from "@react-three/drei";
 import { useState, useMemo } from "react";
 import * as THREE from "three";
+import { useBookingData } from "../services/bookingDataService";
 
-export default function LoadModel() {
+export default function LoadModel({
+  onRoomClick,
+  selectedDate,
+  selectedHour,
+  useMockData,
+}) {
   const gltf = useGLTF("./glb/ar15-201.glb");
   const roomID = ["101", "102", "201", "202", "203", "204", "205", "206"];
-  const [hoveredRoom, setHoveredRoom] = useState(null);
   const [selectedRoom, setSelectedRoom] = useState(null);
+  const { getBookingsForRoomAndDate } = useBookingData(useMockData);
 
   // Mapping each room ID to a school/university function name
   const roomFunctionMapping = {
@@ -34,12 +40,24 @@ export default function LoadModel() {
     return positions;
   }, [gltf]);
 
+  const getRoomBookings = (roomId, date) => {
+    if (roomId && date) {
+      return getBookingsForRoomAndDate(roomId, date);
+    }
+    return [];
+  };
+
   return (
     <group dispose={null}>
       {gltf.scene.children.map((child) => {
         if (roomID.includes(child.name)) {
           const isSelected = selectedRoom === child.name;
           const position = roomPositions[child.name];
+          const roomBookings = getRoomBookings(child.name, selectedDate);
+          const isBooked =
+            roomBookings &&
+            selectedHour !== null &&
+            roomBookings[selectedHour / 3]?.isBooked; // Assuming 3-hour slots
 
           // Get the base color of the original material
           let baseColor;
@@ -54,7 +72,10 @@ export default function LoadModel() {
           return (
             <group
               key={child.name}
-              onClick={() => setSelectedRoom(child.name)}
+              onClick={() => {
+                setSelectedRoom(child.name);
+                onRoomClick(child.name); // Pass the room ID to the parent component
+              }}
             >
               <primitive
                 object={child.clone()}
@@ -62,9 +83,9 @@ export default function LoadModel() {
                   isSelected
                     ? new THREE.MeshLambertMaterial({
                         color: baseColor,
-                        opacity: 0.5,
+                        emissive: isBooked ? "red" : "yellow", // Indicate booking status
                         transparent: true,
-                        emissive: "yellow",
+                        opacity: 0.5,
                       })
                     : undefined
                 }
@@ -79,7 +100,7 @@ export default function LoadModel() {
                       borderRadius: "5px",
                     }}
                   >
-                    {child.name} - {roomFunctionMapping[child.name]}
+                    {child.name}
                   </div>
                 </Html>
               )}

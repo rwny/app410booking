@@ -11,19 +11,19 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
-  },
-  {
-    "roomId": "101",
-    "userId": "",
-    "date": "2025-03-21",
-    "timeSlot": "06:00 - 09:00",
     "status": "booked"
   },
   {
     "roomId": "101",
     "userId": "",
     "date": "2025-03-21",
+    "timeSlot": "06:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
     "timeSlot": "09:00 - 12:00",
     "status": "available"
   },
@@ -32,19 +32,19 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "12:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-21",
+    "timeSlot": "15:00 - 18:00",
     "status": "booked"
   },
   {
     "roomId": "101",
     "userId": "",
     "date": "2025-03-21",
-    "timeSlot": "15:00 - 18:00",
-    "status": "booked"
-  },
-  {
-    "roomId": "101",
-    "userId": "",
-    "date": "2025-03-21",
     "timeSlot": "18:00 - 21:00",
     "status": "booked"
   },
@@ -60,14 +60,14 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "102",
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "102",
@@ -102,7 +102,7 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "18:00 - 21:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
@@ -116,35 +116,35 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "201",
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "201",
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "201",
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "09:00 - 12:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "201",
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "12:00 - 15:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "201",
@@ -165,7 +165,7 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "21:00 - 00:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "202",
@@ -193,7 +193,7 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "09:00 - 12:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
@@ -207,7 +207,7 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "202",
@@ -221,14 +221,14 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "21:00 - 00:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "203",
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "00:00 - 03:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "203",
@@ -242,7 +242,7 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "06:00 - 09:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "203",
@@ -256,7 +256,7 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "12:00 - 15:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "203",
@@ -270,7 +270,7 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "18:00 - 21:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "203",
@@ -284,7 +284,7 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "204",
@@ -312,14 +312,14 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "12:00 - 15:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
@@ -333,7 +333,7 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "21:00 - 00:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "205",
@@ -347,7 +347,7 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "205",
@@ -368,14 +368,14 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "12:00 - 15:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "205",
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "205",
@@ -417,7 +417,7 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "09:00 - 12:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "206",
@@ -445,14 +445,14 @@
     "userId": "",
     "date": "2025-03-21",
     "timeSlot": "21:00 - 00:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "101",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "00:00 - 03:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "101",
@@ -473,21 +473,21 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "09:00 - 12:00",
-    "status": "booked"
-  },
-  {
-    "roomId": "101",
-    "userId": "",
-    "date": "2025-03-22",
-    "timeSlot": "12:00 - 15:00",
     "status": "available"
   },
   {
     "roomId": "101",
     "userId": "",
     "date": "2025-03-22",
-    "timeSlot": "15:00 - 18:00",
+    "timeSlot": "12:00 - 15:00",
     "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-22",
+    "timeSlot": "15:00 - 18:00",
+    "status": "available"
   },
   {
     "roomId": "101",
@@ -501,28 +501,28 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "21:00 - 00:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "102",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "102",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "102",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "06:00 - 09:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "102",
@@ -536,21 +536,21 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "12:00 - 15:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "18:00 - 21:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "102",
@@ -585,19 +585,19 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "09:00 - 12:00",
-    "status": "available"
-  },
-  {
-    "roomId": "201",
-    "userId": "",
-    "date": "2025-03-22",
-    "timeSlot": "12:00 - 15:00",
     "status": "booked"
   },
   {
     "roomId": "201",
     "userId": "",
     "date": "2025-03-22",
+    "timeSlot": "12:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "201",
+    "userId": "",
+    "date": "2025-03-22",
     "timeSlot": "15:00 - 18:00",
     "status": "booked"
   },
@@ -606,28 +606,28 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "18:00 - 21:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "201",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "21:00 - 00:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "202",
@@ -648,7 +648,7 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "12:00 - 15:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
@@ -676,14 +676,14 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "203",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "203",
@@ -697,7 +697,7 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "09:00 - 12:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "203",
@@ -718,7 +718,7 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "18:00 - 21:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "203",
@@ -732,7 +732,7 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "00:00 - 03:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
@@ -746,7 +746,7 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "06:00 - 09:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "204",
@@ -788,7 +788,7 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "205",
@@ -823,42 +823,42 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "205",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "18:00 - 21:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "205",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "21:00 - 00:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "206",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "206",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "06:00 - 09:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "206",
@@ -879,21 +879,21 @@
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "15:00 - 18:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "206",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "18:00 - 21:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
     "userId": "",
     "date": "2025-03-22",
     "timeSlot": "21:00 - 00:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "101",
@@ -914,21 +914,21 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
-  },
-  {
-    "roomId": "101",
-    "userId": "",
-    "date": "2025-03-23",
-    "timeSlot": "09:00 - 12:00",
     "status": "available"
   },
   {
     "roomId": "101",
     "userId": "",
     "date": "2025-03-23",
-    "timeSlot": "12:00 - 15:00",
+    "timeSlot": "09:00 - 12:00",
     "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "12:00 - 15:00",
+    "status": "available"
   },
   {
     "roomId": "101",
@@ -949,14 +949,14 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "21:00 - 00:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "102",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "00:00 - 03:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
@@ -977,14 +977,14 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "09:00 - 12:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "12:00 - 15:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
@@ -1005,14 +1005,14 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "21:00 - 00:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "201",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "00:00 - 03:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "201",
@@ -1026,28 +1026,28 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "201",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "09:00 - 12:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "201",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "12:00 - 15:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "201",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "15:00 - 18:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "201",
@@ -1061,7 +1061,7 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "21:00 - 00:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "202",
@@ -1075,7 +1075,7 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
@@ -1089,35 +1089,35 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "09:00 - 12:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "202",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "12:00 - 15:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "15:00 - 18:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "18:00 - 21:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "21:00 - 00:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "203",
@@ -1159,21 +1159,21 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "203",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "18:00 - 21:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "203",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "21:00 - 00:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "204",
@@ -1187,14 +1187,14 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "06:00 - 09:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "204",
@@ -1208,21 +1208,21 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "12:00 - 15:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "15:00 - 18:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "18:00 - 21:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
@@ -1250,28 +1250,28 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "06:00 - 09:00",
-    "status": "available"
-  },
-  {
-    "roomId": "205",
-    "userId": "",
-    "date": "2025-03-23",
-    "timeSlot": "09:00 - 12:00",
-    "status": "available"
-  },
-  {
-    "roomId": "205",
-    "userId": "",
-    "date": "2025-03-23",
-    "timeSlot": "12:00 - 15:00",
     "status": "booked"
   },
   {
     "roomId": "205",
     "userId": "",
     "date": "2025-03-23",
-    "timeSlot": "15:00 - 18:00",
+    "timeSlot": "09:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "205",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "12:00 - 15:00",
     "status": "available"
+  },
+  {
+    "roomId": "205",
+    "userId": "",
+    "date": "2025-03-23",
+    "timeSlot": "15:00 - 18:00",
+    "status": "booked"
   },
   {
     "roomId": "205",
@@ -1285,7 +1285,7 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "21:00 - 00:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "206",
@@ -1306,7 +1306,7 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
@@ -1327,7 +1327,7 @@
     "userId": "",
     "date": "2025-03-23",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
@@ -1362,35 +1362,35 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
-  },
-  {
-    "roomId": "101",
-    "userId": "",
-    "date": "2025-03-24",
-    "timeSlot": "09:00 - 12:00",
-    "status": "booked"
-  },
-  {
-    "roomId": "101",
-    "userId": "",
-    "date": "2025-03-24",
-    "timeSlot": "12:00 - 15:00",
-    "status": "booked"
-  },
-  {
-    "roomId": "101",
-    "userId": "",
-    "date": "2025-03-24",
-    "timeSlot": "15:00 - 18:00",
     "status": "available"
   },
   {
     "roomId": "101",
     "userId": "",
     "date": "2025-03-24",
-    "timeSlot": "18:00 - 21:00",
+    "timeSlot": "09:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "12:00 - 15:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "15:00 - 18:00",
     "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "18:00 - 21:00",
+    "status": "booked"
   },
   {
     "roomId": "101",
@@ -1411,14 +1411,14 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
@@ -1467,7 +1467,7 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "201",
@@ -1502,7 +1502,7 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "18:00 - 21:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "201",
@@ -1523,7 +1523,7 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "202",
@@ -1544,7 +1544,7 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "12:00 - 15:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "202",
@@ -1558,7 +1558,7 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "18:00 - 21:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
@@ -1579,35 +1579,35 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
-  },
-  {
-    "roomId": "203",
-    "userId": "",
-    "date": "2025-03-24",
-    "timeSlot": "06:00 - 09:00",
     "status": "booked"
   },
   {
     "roomId": "203",
     "userId": "",
     "date": "2025-03-24",
-    "timeSlot": "09:00 - 12:00",
+    "timeSlot": "06:00 - 09:00",
     "status": "available"
+  },
+  {
+    "roomId": "203",
+    "userId": "",
+    "date": "2025-03-24",
+    "timeSlot": "09:00 - 12:00",
+    "status": "booked"
   },
   {
     "roomId": "203",
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "12:00 - 15:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "203",
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "15:00 - 18:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "203",
@@ -1621,7 +1621,7 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "21:00 - 00:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
@@ -1656,21 +1656,21 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "12:00 - 15:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "18:00 - 21:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
@@ -1684,21 +1684,21 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "205",
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "205",
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "205",
@@ -1712,7 +1712,7 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "12:00 - 15:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "205",
@@ -1740,28 +1740,28 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "206",
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "09:00 - 12:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
@@ -1775,7 +1775,7 @@
     "userId": "",
     "date": "2025-03-24",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
@@ -1803,28 +1803,28 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "101",
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "06:00 - 09:00",
-    "status": "available"
-  },
-  {
-    "roomId": "101",
-    "userId": "",
-    "date": "2025-03-25",
-    "timeSlot": "09:00 - 12:00",
     "status": "booked"
   },
   {
     "roomId": "101",
     "userId": "",
     "date": "2025-03-25",
-    "timeSlot": "12:00 - 15:00",
+    "timeSlot": "09:00 - 12:00",
     "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "12:00 - 15:00",
+    "status": "booked"
   },
   {
     "roomId": "101",
@@ -1859,7 +1859,7 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
@@ -1880,14 +1880,14 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "12:00 - 15:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
@@ -1908,14 +1908,14 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "00:00 - 03:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "201",
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "201",
@@ -1950,7 +1950,7 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "18:00 - 21:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "201",
@@ -1971,7 +1971,7 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
@@ -1985,7 +1985,7 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "09:00 - 12:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
@@ -1999,7 +1999,7 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "15:00 - 18:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
@@ -2013,14 +2013,14 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "21:00 - 00:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "203",
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "00:00 - 03:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "203",
@@ -2041,21 +2041,21 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "09:00 - 12:00",
-    "status": "booked"
-  },
-  {
-    "roomId": "203",
-    "userId": "",
-    "date": "2025-03-25",
-    "timeSlot": "12:00 - 15:00",
     "status": "available"
   },
   {
     "roomId": "203",
     "userId": "",
     "date": "2025-03-25",
-    "timeSlot": "15:00 - 18:00",
+    "timeSlot": "12:00 - 15:00",
     "status": "booked"
+  },
+  {
+    "roomId": "203",
+    "userId": "",
+    "date": "2025-03-25",
+    "timeSlot": "15:00 - 18:00",
+    "status": "available"
   },
   {
     "roomId": "203",
@@ -2069,7 +2069,7 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "21:00 - 00:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "204",
@@ -2090,28 +2090,28 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
-  },
-  {
-    "roomId": "204",
-    "userId": "",
-    "date": "2025-03-25",
-    "timeSlot": "09:00 - 12:00",
     "status": "available"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-25",
-    "timeSlot": "12:00 - 15:00",
+    "timeSlot": "09:00 - 12:00",
     "status": "booked"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-25",
+    "timeSlot": "12:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "204",
+    "userId": "",
+    "date": "2025-03-25",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
@@ -2153,7 +2153,7 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "09:00 - 12:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "205",
@@ -2202,28 +2202,28 @@
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "09:00 - 12:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "206",
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "12:00 - 15:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "206",
     "userId": "",
     "date": "2025-03-25",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
@@ -2258,7 +2258,7 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "06:00 - 09:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "101",
@@ -2314,19 +2314,19 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
-  },
-  {
-    "roomId": "102",
-    "userId": "",
-    "date": "2025-03-26",
-    "timeSlot": "09:00 - 12:00",
     "status": "available"
   },
   {
     "roomId": "102",
     "userId": "",
     "date": "2025-03-26",
+    "timeSlot": "09:00 - 12:00",
+    "status": "available"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
     "timeSlot": "12:00 - 15:00",
     "status": "available"
   },
@@ -2335,19 +2335,19 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
-  },
-  {
-    "roomId": "102",
-    "userId": "",
-    "date": "2025-03-26",
-    "timeSlot": "18:00 - 21:00",
     "status": "available"
   },
   {
     "roomId": "102",
     "userId": "",
     "date": "2025-03-26",
+    "timeSlot": "18:00 - 21:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "102",
+    "userId": "",
+    "date": "2025-03-26",
     "timeSlot": "21:00 - 00:00",
     "status": "available"
   },
@@ -2370,7 +2370,7 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "201",
@@ -2384,7 +2384,7 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "12:00 - 15:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "201",
@@ -2426,7 +2426,7 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "06:00 - 09:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
@@ -2440,7 +2440,7 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "12:00 - 15:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
@@ -2454,7 +2454,7 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "18:00 - 21:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "202",
@@ -2468,7 +2468,7 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "00:00 - 03:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "203",
@@ -2489,7 +2489,7 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "09:00 - 12:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "203",
@@ -2510,7 +2510,7 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "18:00 - 21:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "203",
@@ -2524,14 +2524,14 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "204",
@@ -2552,28 +2552,28 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "12:00 - 15:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "18:00 - 21:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "21:00 - 00:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "205",
@@ -2594,21 +2594,21 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "205",
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "09:00 - 12:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "205",
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "12:00 - 15:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "205",
@@ -2636,14 +2636,14 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "00:00 - 03:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
@@ -2671,7 +2671,7 @@
     "userId": "",
     "date": "2025-03-26",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
@@ -2699,33 +2699,33 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
-  },
-  {
-    "roomId": "101",
-    "userId": "",
-    "date": "2025-03-27",
-    "timeSlot": "06:00 - 09:00",
-    "status": "available"
-  },
-  {
-    "roomId": "101",
-    "userId": "",
-    "date": "2025-03-27",
-    "timeSlot": "09:00 - 12:00",
-    "status": "available"
-  },
-  {
-    "roomId": "101",
-    "userId": "",
-    "date": "2025-03-27",
-    "timeSlot": "12:00 - 15:00",
     "status": "booked"
   },
   {
     "roomId": "101",
     "userId": "",
     "date": "2025-03-27",
+    "timeSlot": "06:00 - 09:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-27",
+    "timeSlot": "09:00 - 12:00",
+    "status": "booked"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-27",
+    "timeSlot": "12:00 - 15:00",
+    "status": "available"
+  },
+  {
+    "roomId": "101",
+    "userId": "",
+    "date": "2025-03-27",
     "timeSlot": "15:00 - 18:00",
     "status": "booked"
   },
@@ -2734,7 +2734,7 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "18:00 - 21:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "101",
@@ -2748,7 +2748,7 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "00:00 - 03:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
@@ -2769,14 +2769,14 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "09:00 - 12:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "102",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "12:00 - 15:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
@@ -2790,7 +2790,7 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "18:00 - 21:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "102",
@@ -2804,14 +2804,14 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "201",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "201",
@@ -2825,7 +2825,7 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "09:00 - 12:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "201",
@@ -2853,28 +2853,28 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "21:00 - 00:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "202",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "00:00 - 03:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "202",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "202",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "06:00 - 09:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
@@ -2888,7 +2888,7 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "12:00 - 15:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "202",
@@ -2902,7 +2902,7 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "18:00 - 21:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "202",
@@ -2916,21 +2916,21 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "203",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "03:00 - 06:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "203",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "06:00 - 09:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "203",
@@ -2951,42 +2951,42 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "15:00 - 18:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "203",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "18:00 - 21:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "203",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "21:00 - 00:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "06:00 - 09:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
@@ -3014,7 +3014,7 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "18:00 - 21:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "204",
@@ -3028,21 +3028,21 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "00:00 - 03:00",
-    "status": "available"
-  },
-  {
-    "roomId": "205",
-    "userId": "",
-    "date": "2025-03-27",
-    "timeSlot": "03:00 - 06:00",
     "status": "booked"
   },
   {
     "roomId": "205",
     "userId": "",
     "date": "2025-03-27",
-    "timeSlot": "06:00 - 09:00",
+    "timeSlot": "03:00 - 06:00",
     "status": "available"
+  },
+  {
+    "roomId": "205",
+    "userId": "",
+    "date": "2025-03-27",
+    "timeSlot": "06:00 - 09:00",
+    "status": "booked"
   },
   {
     "roomId": "205",
@@ -3056,7 +3056,7 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "12:00 - 15:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "205",
@@ -3070,14 +3070,14 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "18:00 - 21:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "205",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "21:00 - 00:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "206",
@@ -3091,14 +3091,14 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "03:00 - 06:00",
-    "status": "booked"
+    "status": "available"
   },
   {
     "roomId": "206",
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "06:00 - 09:00",
-    "status": "available"
+    "status": "booked"
   },
   {
     "roomId": "206",
@@ -3133,6 +3133,6 @@
     "userId": "",
     "date": "2025-03-27",
     "timeSlot": "21:00 - 00:00",
-    "status": "booked"
+    "status": "available"
   }
 ]

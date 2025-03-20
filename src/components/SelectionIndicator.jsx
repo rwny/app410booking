@@ -1,63 +1,107 @@
-import React, { useEffect } from 'react';
-import './styles/SelectionIndicator.css';
+import React, { useState, useEffect } from 'react';
 import { useBookingData } from '../services/bookingDataService';
+import './styles/SelectionIndicator.css';
 
-export default function SelectionIndicator({ selectedDate, selectedHour, selectedRoom, useMockData = true }) {
-  const { getBooking } = useBookingData(useMockData);
-  
-  // Debug logging with more detailed information
-  useEffect(() => {
-    // console.log(`SelectionIndicator: selectedHour=${selectedHour}, type=${typeof selectedHour}, value is ${selectedHour === null ? 'null' : selectedHour}`);
-  }, [selectedHour]);
-  
-  // Check if this specific slot is booked using shared booking data
-  const booking = selectedRoom && selectedDate && selectedHour !== null
-    ? getBooking(selectedRoom.id, selectedDate, selectedHour)
-    : null;
+export default function SelectionIndicator({ selectedDate, selectedHour, selectedRoom, useMockData = false }) {
+  // Add visible state with default as true
+  const [isVisible, setIsVisible] = useState(true);
+  const [isAdmin, setIsAdmin] = useState(false); // State to track admin status
+  const { getBookingsForRoomAndDate } = useBookingData(useMockData);
 
-  // Check the actual status field from the booking
-  const isBooked = booking ? (booking.status && booking.status.toLowerCase() === "booked") : false;
-  
-  // Simplified and more robust formatHour function
-  const formatHour = (hour) => {
-    // If no hour is selected
-    if (hour === null || hour === undefined) {
-      return 'Not selected';
-    }
-    
-    // Convert to number (if it's not already)
-    const hourNum = Number(hour);
-    
-    // Check if it's a valid number
-    if (isNaN(hourNum) || hourNum < 0 || hourNum > 23) {
-      console.log(`Invalid hour: ${hour}, converted to ${hourNum}`);
-      return 'Not selected';
-    }
-    
-    // Format properly
-    const hourStr = String(hourNum).padStart(2, '0');
-    const nextHour = String((hourNum + 1) % 24).padStart(2, '0');
-    return `${hourStr}:00 - ${nextHour}:00`;
+  // Toggle function for visibility
+  const toggleVisibility = () => {
+    setIsVisible(prev => !prev);
+  };
+
+  // Toggle admin mode (in a real app, this would be controlled by authentication)
+  const toggleAdminMode = () => {
+    setIsAdmin(prev => !prev);
   };
   
-  // Display status based on selections and actual booking status
-  const availabilityStatus = selectedRoom && selectedDate && selectedHour !== null
-    ? isBooked ? 'Booked' : 'Available' 
-    : 'Select date, time, and room';
+  // Check if there's anything selected
+  const hasSelection = selectedDate && selectedHour !== null && selectedRoom;
   
-  const availabilityClass = isBooked ? 'booked' : 'available';
+  // Get booking status for the selected time slot
+  const getBookingStatus = () => {
+    if (!hasSelection) return null;
+    
+    try {
+      const bookings = getBookingsForRoomAndDate(selectedRoom.id, selectedDate);
+      // For 3-hour time slots, we need to adjust the index
+      const timeSlotIndex = Math.floor(selectedHour / 3);
+      return bookings && bookings[timeSlotIndex] ? bookings[timeSlotIndex].isBooked : false;
+    } catch (error) {
+      console.error('Error checking booking status:', error);
+      return false;
+    }
+  };
+  
+  const isBooked = hasSelection ? getBookingStatus() : false;
+  
+  // Function to format the time slot for display
+  const formatTimeSlot = (hour) => {
+    if (hour === null) return '';
+    const startHour = String(hour).padStart(2, '0');
+    const endHour = String((hour + 3) % 24).padStart(2, '0');
+    return `${startHour}:00 - ${endHour}:00`;
+  };
+
+  // Early return if component should be hidden
+  if (!isVisible && !isAdmin) {
+    return null;
+  }
   
   return (
     <div className="selection-indicator">
-      <div className="selection-header">Current Selection</div>
-      <div className="selection-details">
-        <div>Date: <span>{selectedDate || 'Not selected'}</span></div>
-        <div>Time: <span className="time-value">{formatHour(selectedHour)}</span></div>
-        <div>Room: <span>{selectedRoom ? selectedRoom.name : 'Not selected'}</span></div>
-        <div className={`availability ${availabilityClass}`}>
-          Status: <span>{availabilityStatus}</span>
+      {isAdmin && (
+        <div className="admin-controls">
+          <button 
+            className="toggle-button"
+            onClick={toggleVisibility}
+          >
+            {isVisible ? 'Hide Indicator' : 'Show Indicator'}
+          </button>
         </div>
-      </div>
+      )}
+      
+      {/* Only render indicator content if it's visible or in admin mode */}
+      {(isVisible || isAdmin) && (
+        <div className={`indicator-content ${!isVisible ? 'admin-preview' : ''}`}>
+          {hasSelection ? (
+            <>
+              <div className="selection-details">
+                <span className="detail-label">Room:</span> 
+                <span className="detail-value">{selectedRoom.name}</span>
+              </div>
+              <div className="selection-details">
+                <span className="detail-label">Date:</span> 
+                <span className="detail-value">{selectedDate}</span>
+              </div>
+              <div className="selection-details">
+                <span className="detail-label">Time:</span> 
+                <span className="detail-value">{formatTimeSlot(selectedHour)}</span>
+              </div>
+              <div className="status-indicator">
+                <span className={`status-dot ${isBooked ? 'booked' : 'available'}`}></span>
+                <span className="status-text">{isBooked ? 'Booked' : 'Available'}</span>
+              </div>
+            </>
+          ) : (
+            <div className="no-selection">
+              Please select a room, date, and time slot.
+            </div>
+          )}
+        </div>
+      )}
+      
+      {/* Admin mode toggle button - in a real app this would be protected */}
+      <button 
+        className="admin-toggle" 
+        onClick={toggleAdminMode}
+        title="Toggle Admin Mode"
+      >
+        {isAdmin ? '👑' : '👤'}
+      </button>
     </div>
   );
 }

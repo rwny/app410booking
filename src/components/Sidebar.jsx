@@ -1,105 +1,133 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { useBookingData } from '../services/bookingDataService';
 import './styles/Sidebar.css';
 
-export default function Sidebar({ roomData, onClose, selectedDate, onDateChange }) {
-  const [selectedTimeSlot, setSelectedTimeSlot] = useState(null);
-  const [bookingSuccess, setBookingSuccess] = useState(false);
-  const [bookingError, setBookingError] = useState(null);
-  
-  function getFormattedDate() {
-    const today = new Date();
-    const year = today.getFullYear();
-    const month = String(today.getMonth() + 1).padStart(2, '0');
-    const day = String(today.getDate()).padStart(2, '0');
-    return `${year}-${month}-${day}`;
-  }
+export default function Sidebar({ roomData, onClose, selectedDate, selectedHour, useMockData = false }) {
+  // Room function mapping (same as in LoadModel.jsx)
+  const roomFunctionMapping = {
+    "101": "Chemistry Lab",
+    "102": "Physics Lab",
+    "201": "Biology Lab",
+    "202": "Computer Lab",
+    "203": "Lecture Hall",
+    "204": "Library",
+    "205": "Art Studio",
+    "206": "Research Center",
+  };
 
-  const handleDateChange = (e) => {
-    const newDate = e.target.value;
-    onDateChange(newDate);
+  // Selection Indicator functionality
+  const [isVisible, setIsVisible] = useState(true);
+  const [isAdmin, setIsAdmin] = useState(false);
+  const { getBookingsForRoomAndDate } = useBookingData(useMockData);
+
+  // Toggle functions
+  const toggleVisibility = () => {
+    setIsVisible(prev => !prev);
+  };
+
+  const toggleAdminMode = () => {
+    setIsAdmin(prev => !prev);
   };
   
-  const handleBookRoom = async () => {
-    if (selectedTimeSlot) {
-      try {
-        const response = await fetch('http://localhost:5000/bookings', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            roomId: roomData.id,
-            userId: 'student123', // Replace with actual user ID
-            date: selectedDate,
-            timeSlot: selectedTimeSlot,
-          }),
-        });
-        
-        const data = await response.json();
-        
-        if (!response.ok) {
-          setBookingError(data.message || 'An error occurred');
-          setBookingSuccess(false);
-          return;
-        }
-        
-        setBookingSuccess(true);
-        setBookingError(null);
-        
-        setTimeout(() => {
-          setBookingSuccess(false);
-        }, 3000);
-      } catch (error) {
-        setBookingError('Failed to book room');
-        setBookingSuccess(false);
-      }
+  // Check if there's anything selected
+  const hasSelection = selectedDate && selectedHour !== null && roomData;
+  
+  // Get booking status for the selected time slot
+  const getBookingStatus = () => {
+    if (!hasSelection) return null;
+    
+    try {
+      const bookings = getBookingsForRoomAndDate(roomData.id, selectedDate);
+      // For 3-hour time slots, we need to adjust the index
+      const timeSlotIndex = Math.floor(selectedHour / 3);
+      return bookings && bookings[timeSlotIndex] ? bookings[timeSlotIndex].isBooked : false;
+    } catch (error) {
+      console.error('Error checking booking status:', error);
+      return false;
     }
   };
   
+  const isBooked = hasSelection ? getBookingStatus() : false;
+  
+  // Function to format the time slot for display
+  const formatTimeSlot = (hour) => {
+    if (hour === null) return '';
+    const startHour = String(hour).padStart(2, '0');
+    const endHour = String((hour + 3) % 24).padStart(2, '0');
+    return `${startHour}:00 - ${endHour}:00`;
+  };
+
+  if (!roomData) return null;
+
   return (
     <div className="sidebar">
       <button className="close-button" onClick={onClose}>×</button>
       
-      <div className="sidebar-content">
-        <h2>{roomData.name}</h2>
-        
-        <div className="room-status">
-          <span className={`status-indicator ${roomData.available ? 'available' : 'booked'}`}></span>
-          <span>{roomData.available ? 'Available' : 'Currently Booked'}</span>
-        </div>
-        
-        <div className="room-details">
-          <p><strong>Capacity:</strong> {roomData.capacity} people</p>
-          <p><strong>Amenities:</strong> {roomData.amenities.join(', ')}</p>
-        </div>
-        
-        {roomData.available && (
-          <div className="booking-form">
-            <h3>Book This Room</h3>
-            
-            <p className="select-time-instruction">Click on a time slot in the bar above to select booking time</p>
-            
+      {/* Selection Indicator at the top of sidebar */}
+      <div className="selection-summary">
+        {isAdmin && (
+          <div className="admin-controls">
             <button 
-              className="book-button" 
-              disabled={!selectedTimeSlot}
-              onClick={handleBookRoom}
+              className="toggle-button"
+              onClick={toggleVisibility}
             >
-              Book Room
+              {isVisible ? 'Hide Summary' : 'Show Summary'}
             </button>
-            
-            {bookingSuccess && (
-              <div className="success-message">
-                Room booked successfully!
-              </div>
-            )}
-            
-            {bookingError && (
-              <div className="error-message">
-                Error: {bookingError}
+          </div>
+        )}
+        
+        {(isVisible || isAdmin) && (
+          <div className={`summary-content ${!isVisible ? 'admin-preview' : ''}`}>
+            {hasSelection ? (
+              <>
+                <div className="selection-details">
+                  <span className="detail-label">Room:</span> 
+                  <span className="detail-value">{roomData.name}</span>
+                </div>
+                <div className="selection-details">
+                  <span className="detail-label">Date:</span> 
+                  <span className="detail-value">{selectedDate}</span>
+                </div>
+                <div className="selection-details">
+                  <span className="detail-label">Time:</span> 
+                  <span className="detail-value">{formatTimeSlot(selectedHour)}</span>
+                </div>
+                <div className="status-indicator">
+                  <span className={`status-dot ${isBooked ? 'booked' : 'available'}`}></span>
+                  <span className="status-text">{isBooked ? 'Booked' : 'Available'}</span>
+                </div>
+              </>
+            ) : (
+              <div className="no-selection">
+                Please select a room, date, and time slot.
               </div>
             )}
           </div>
         )}
+        
+        {/* Admin mode toggle button */}
+        <button 
+          className="admin-toggle" 
+          onClick={toggleAdminMode}
+          title="Toggle Admin Mode"
+        >
+          {isAdmin ? '👑' : '👤'}
+        </button>
+      </div>
+      
+      {/* Original sidebar content */}
+      <div className="sidebar-content">
+        <h2>Room Details</h2>
+        <div className="room-info">
+          <p className="room-id">Room {roomData.id}</p>
+          <p className="room-function">{roomFunctionMapping[roomData.id]}</p>
+        </div>
+        <div className="room-image">
+          {/* Placeholder for room image */}
+          <div className="image-placeholder">
+            {roomData.id} - {roomFunctionMapping[roomData.id]}
+          </div>
+        </div>
       </div>
     </div>
   );
